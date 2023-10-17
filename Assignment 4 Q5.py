@@ -1,4 +1,5 @@
 import random
+
 def get_int():
     number = random.randint(1, 10)
     try:
@@ -24,9 +25,13 @@ def get_int():
     except ValueError:
         print("Error, that isn't a number!")
         return get_int()
+
 get_int()
+
 decision = input('Press R to restart or Q to quit: \n')
 decision = decision.capitalize()
 while True:
     if decision == 'R' or 'Q':
         get_int()
+
+
