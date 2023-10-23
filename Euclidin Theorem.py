@@ -6,8 +6,8 @@ try:
 
     def euc():
         try:
-            num1 = int(input('Please enter a number: '))
-            num2 = int(input('Please enter a second number: '))
+            num1 = int(input('Please enter a number: ')) #3843923188392
+            num2 = int(input('Please enter a second number: ')) #54000000000000
 
             if num1 == 0:
                 print(f'The GCD of {num1} and {num2} is {num2}')
